@@ -1,0 +1,12 @@
+﻿fastapi>=0.115.0
+uvicorn>=0.32.0
+joblib>=1.4.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+# Pickles in ../models were fitted with scikit-learn 1.7.2. scikit-learn
+# does NOT guarantee pickle compatibility across versions (loading them under
+# a newer sklearn breaks SimpleImputer with AttributeError '_fill_dtype').
+scikit-learn==1.7.2
+pandas>=2.2.0
+pydantic>=2.9.0
+matplotlib>=3.9.0

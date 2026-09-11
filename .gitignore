@@ -4,3 +4,10 @@ models/random_forest_model.pkl
 
 # Local backup bundles
 *.bundle
+
+# Environment secrets
+.env
+.next
+/node_modules
+*/node_modules
+*/__pycache__
